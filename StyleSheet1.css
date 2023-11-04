@@ -1,0 +1,186 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital@1&display=swap');
+p {font-size:30px;
+   font-palette:dark;
+}
+
+h1{font-size:90px;
+   font-palette:unset;
+   color:black;
+   text-align:center;
+}
+h2{
+    font-size: 40px;
+    font-palette: dark;
+}
+
+h3{
+    font-size: 40px;
+    font-palette: dark;
+} 
+
+h4{
+    font-size: 40px;
+    font-palette: dark;
+}
+
+h5{
+    font-size: 20px;
+    font-palette: dark;
+} 
+
+h6{
+    font-size: 30px;
+    font-palette: dark;
+}
+
+    body {
+    background-image:url(sombrero.jpg);
+    background-color: lightcoral;
+    background-blend-mode: screen ;
+   
+    background-attachment: fixed;
+}
+
+.imagenes {
+    filter: saturate(30%) sepia(50%) hue-rotate(60deg);
+    
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -1;
+    
+}
+
+
+#indice {
+    position: relative;
+    top: 50%;
+    transform: translate(4%, -50%);
+    font-size:24px;
+    color: rebeccapurple;
+    display: grid;
+    grid-template-columns: repeat(3,1f);
+}
+#indicechiquito {
+    grid-column: 1/3;
+}
+
+.Poemas {
+    color:darkslategrey;
+    
+}
+.Autores {
+    color: darkslategrey;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#titulo {
+    
+    position:relative;
+        width:100%;
+        height:100vh;
+
+}
+#Video{
+    position:relative;
+    top:80%;
+}
+#Migala {
+    background-image: url(gentemanos.jpg);
+    background-color:rgb(77, 32, 128);
+    background-blend-mode: screen;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+#Logo{
+    position: absolute;
+    top:0;
+    
+    width:20%;
+    height:20%;
+   
+    
+}
+#Loguito{
+    width:100%;
+    height:auto;
+    
+}
+#gato{
+    width:20%;
+    height:auto;
+    position:absolute;
+    left:80%;
+    top:5%;
+    transform: translate(-10%, -10%)
+}
+
+#Video {
+    width: 20%;
+    height: auto;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    transform: translate(280%, 150%);
+    z-index:1;
+}
+
+#Capitulo1 {
+    column-count: 2;
+    margin:40px;
+}
+#Capitulo2 {
+    column-count: 3;
+    
+}
+
+#Capitulo3 {
+    column-count: 2;
+    content:"";
+    margin-block:10px;
+}
+
+#Capitulo4 {
+    column-count: 2;
+}
+
+#Capitulo5 {
+    column-count: 2;
+}
+
+#Capitulo6 {
+    column-count: 2;
+}
+
+#Capitulo7 {
+    column-count: 2;
+}
+
+#Capitulo8 {
+    column-count: 2;
+}
+
+#Capitulo9 {
+    column-count: 2;
+}
+
+#Capitulo10 {
+    column-count: 2;
+}
+
+#Capitulo11 {
+    column-count: 2;
+}
+
+
+.pics {
+    box-shadow: 16px 16px 30px rgb(67, 67, 173, 8.70);
+}
+
+#mari {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    clip-path: circle(50% at 50% 50%);
+}
